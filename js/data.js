@@ -58,7 +58,7 @@ const pricingData = [
       "Real-time monitoring",
       "Secure file deletion",
     ],
-    buttonText: "Contact Sales",
+    buttonText: "Pay Now",
     highlighted: true,
     buttonLink: "#contact",
   },
