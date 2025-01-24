@@ -73,7 +73,7 @@ const pricingData = [
   //         'Custom integrations',
   //         'Training sessions'
   //     ],
-  //     buttonText: 'Contact Sales',
+  //     buttonText: 'Pay Now',
   //     highlighted: false
   // }
 ];
