@@ -1,0 +1,84 @@
+/* Custom styles for policy pages */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom link styles */
+a:not(.no-underline) {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.2s ease;
+}
+
+a:hover:not(.no-underline) {
+  color: #4338ca;
+}
+
+/* Section animations */
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stagger the animations */
+section:nth-child(1) {
+  animation-delay: 0.1s;
+}
+section:nth-child(2) {
+  animation-delay: 0.2s;
+}
+section:nth-child(3) {
+  animation-delay: 0.3s;
+}
+section:nth-child(4) {
+  animation-delay: 0.4s;
+}
+section:nth-child(5) {
+  animation-delay: 0.5s;
+}
+section:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+/* Print styles */
+@media print {
+  nav,
+  footer {
+    display: none;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+
+  body {
+    background: white;
+  }
+
+  .shadow-md {
+    box-shadow: none;
+  }
+}

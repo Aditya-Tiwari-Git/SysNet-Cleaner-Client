@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart PC Optimizer - SysNet Cleaner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="product-details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-4 fixed w-full z-50">
+        <div class="container mx-auto px-6 flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="index.html">
+                    <img src="assets/Sysnet.gif" alt="logo" height="250px" width="150px" />
+                </a>
+            </div>
+
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="nav-link hover:text-green-500">Home</a>
+                <a href="#features" class="nav-link hover:text-green-500">Features</a>
+                <a href="#specifications" class="nav-link hover:text-green-500">Specifications</a>
+                <a href="#faq" class="nav-link hover:text-green-500">FAQ</a>
+            </div>
+
+            <button class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition duration-300">
+                Download Now
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="pt-32 pb-20 bg-gradient-to-r from-gray-900 to-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="animate__animated animate__fadeInLeft">
+                    <h1 class="text-5xl font-bold text-white mb-6">Smart PC Optimizer</h1>
+                    <p class="text-xl text-gray-300 mb-8">Advanced system optimization tool that supercharges your PC's performance</p>
+                    <div class="flex items-center space-x-4 mb-8">
+                        <span class="text-3xl font-bold text-green-500">$29.99</span>
+                        <span class="text-gray-400 line-through">$49.99</span>
+                        <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm">40% OFF</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        <button class="bg-green-500 text-white px-8 py-3 rounded-full hover:bg-green-600 transition-all transform hover:scale-105">
+                            Download Now
+                        </button>
+                        <button class="border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-gray-900 transition-all">
+                            Try Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="animate__animated animate__fadeInRight">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" 
+                         alt="Smart PC Optimizer Dashboard" 
+                         class="rounded-lg shadow-2xl hover-float" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Key Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="features-grid">
+                <!-- Features will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Specifications -->
+    <div id="specifications" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Technical Specifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="spec-card">
+                    <h3 class="text-xl font-semibold mb-4">System Requirements</h3>
+                    <ul class="space-y-3" id="system-requirements">
+                        <!-- Requirements will be populated by JavaScript -->
+                    </ul>
+                </div>
+                <div class="spec-card">
+                    <h3 class="text-xl font-semibold mb-4">Performance Metrics</h3>
+                    <ul class="space-y-3" id="performance-metrics">
+                        <!-- Metrics will be populated by JavaScript -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div id="faq" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto space-y-6" id="faq-container">
+                <!-- FAQs will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="py-20 bg-gradient-to-r from-gray-900 to-gray-800">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-white mb-8 animate__animated animate__fadeInDown">
+                Ready to Optimize Your PC?
+            </h2>
+            <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
+                Join thousands of satisfied users and experience the difference today
+            </p>
+            <button class="bg-green-500 text-white px-8 py-4 rounded-full text-lg hover:bg-green-600 transition-all transform hover:scale-105 animate__animated animate__pulse animate__infinite">
+                Download Now
+            </button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="js/product-details.js"></script>
+</body>
+</html>
